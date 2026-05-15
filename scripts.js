@@ -4,64 +4,100 @@
 
 const horoscopes = {
   aries: [
-    "Today is your power day 🔥",
-    "Take bold decisions.",
-    "Confidence will bring success."
+    // "Today is your power day 🔥",
+    // "Take bold decisions.",
+    // "Confidence will bring success."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   taurus: [
-    "Financial growth possible 💰",
-    "Focus on stability.",
-    "Peaceful day ahead."
+    // "Financial growth possible 💰",
+    // "Focus on stability.",
+    // "Peaceful day ahead."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   gemini: [
-    "Communication brings opportunity 📞",
-    "Stay positive.",
-    "New ideas will shine."
+    // "Communication brings opportunity 📞",
+    // "Stay positive.",
+    // "New ideas will shine."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   cancer: [
-    "Emotional balance is important 💖",
-    "Family support is strong.",
-    "Trust your intuition."
+    // "Emotional balance is important 💖",
+    // "Family support is strong.",
+    // "Trust your intuition."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   leo: [
-    "Leadership brings rewards 🦁",
-    "Shine bright today.",
-    "Take initiative."
+    // "Leadership brings rewards 🦁",
+    // "Shine bright today.",
+    // "Take initiative."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   virgo: [
-    "Organize your goals 📋",
-    "Hard work pays off.",
-    "Focus on details."
+    // "Organize your goals 📋",
+    // "Hard work pays off.",
+    // "Focus on details."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   libra: [
-    "Balance brings harmony ⚖",
-    "Avoid overthinking.",
-    "New partnership possible."
+    // "Balance brings harmony ⚖",
+    // "Avoid overthinking.",
+    // "New partnership possible."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   scorpio: [
-    "Your passion is powerful 🦂",
-    "Face challenges bravely.",
-    "Transformation begins."
+    // "Your passion is powerful 🦂",
+    // "Face challenges bravely.",
+    // "Transformation begins."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   sagittarius: [
-    "Adventure awaits 🌍",
-    "Travel plans possible.",
-    "New learning opportunity."
+    // "Adventure awaits 🌍",
+    // "Travel plans possible.",
+    // "New learning opportunity."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   capricorn: [
-    "Discipline leads to success 🏆",
-    "Stay patient.",
-    "Big achievement coming."
+    // "Discipline leads to success 🏆",
+    // "Stay patient.",
+    // "Big achievement coming."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   aquarius: [
-    "Creative ideas flow 🌊",
-    "Unexpected help arrives.",
-    "Innovation wins."
+    // "Creative ideas flow 🌊",
+    // "Unexpected help arrives.",
+    // "Innovation wins."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ],
   pisces: [
-    "Dream big today 🌙",
-    "Emotional clarity ahead.",
-    "Creative energy high."
+    // "Dream big today 🌙",
+    // "Emotional clarity ahead.",
+    // "Creative energy high."
+    "Koni Tari Ghari Dhasal Aaj",
+    "Duty Ka Kaam Ho Jayenga Balak",  
+    "Pura Karza Utar Denge Aaj"
   ]
 };
 
