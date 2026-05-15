@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmic Daily Horoscope</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src ="video.mp4" type="video/mp4">
+      Your Browser Does Not Support Html5 Video.
+    </video>
+  </div>
+
+  <div class="login-container" id="loginBox">
+    <h2>🔐 Enter Your Name</h2>
+    <input type="text" id="username" placeholder="Enter your name" />
+    <button onclick="login()">Start</button>
+  </div>
+
+  <div class="container hidden" id="mainApp">
+    <h1>🌌CHECK YOUR HOROSCOPE 🌌</h1>
+    <h3 id="welcomeText"></h3>
+
+    <select id="zodiac">
+      <option value="">--Choose Your Zodiac--</option>
+      <option value="aries">♈ Aries</option>
+      <option value="taurus">♉ Taurus</option>
+      <option value="gemini">♊ Gemini</option>
+      <option value="cancer">♋ Cancer</option>
+      <option value="leo">♌ Leo</option>
+      <option value="virgo">♍ Virgo</option>
+      <option value="libra">♎ Libra</option>
+      <option value="scorpio">♏ Scorpio</option>
+      <option value="sagittarius">♐ Sagittarius</option>
+      <option value="capricorn">♑ Capricorn</option>
+      <option value="aquarius">♒ Aquarius</option>
+      <option value="pisces">♓ Pisces</option>
+    </select>
+
+    <button onclick="getHoroscope()">🔮 Get Horoscope</button>
+
+    <div id="result" class="result"></div>
+
+    <h4>📜 Your History</h4>
+    <ul id="history"></ul>
+  </div>
+
+  <audio id="clickSound" src="clcik.wav"></audio>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

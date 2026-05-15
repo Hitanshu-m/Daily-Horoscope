@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  background: url("video.mp4");
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-container, .container {
+  background: rgba(0,0,0,0.7);
+  padding: 30px;
+  border-radius: 20px;
+  width: 95%;
+  max-width: 450px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background: linear-gradient(45deg,#ff9a9e,#fad0c4);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.result {
+  margin-top: 20px;
+  min-height: 80px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  font-size: 18px;
+}
+
+.result.show {
+  opacity: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 100px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+@media(max-width: 500px){
+  body {
+    padding: 10px;
+  }
+}
+
+.vide-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height:auto;
+  z-index: -1;
+  transform: translate(-50%,-50%);
+  object-fit: cover;
+}
